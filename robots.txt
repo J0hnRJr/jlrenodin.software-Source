@@ -1,0 +1,2 @@
+User-agent: *   # All robots
+Allow: /        # Robots are allowed to access all files in the root directory

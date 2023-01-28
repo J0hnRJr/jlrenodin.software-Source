@@ -1,0 +1,18 @@
+html {
+  background-color: beige;
+}
+header {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}

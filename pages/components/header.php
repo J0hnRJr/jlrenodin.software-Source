@@ -1,7 +1,5 @@
 <?php
-if (!isset($path_to_root)) {
-    $path_to_root = './';
-}
+require 'root-path.php';
 ?>
 <header>
     <span>Welcome to John Renodin's Website</span>

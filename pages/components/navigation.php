@@ -1,7 +1,5 @@
 <?php
-if (!isset($path_to_root)) {
-    $path_to_root = './';
-}
+require 'root-path.php';
 ?>
 <span>
     <a href="<?php echo $path_to_root ?>index.php">Home</a> |

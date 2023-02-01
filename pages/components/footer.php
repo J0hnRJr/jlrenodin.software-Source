@@ -1,4 +1,8 @@
+<?php
+require 'root-path.php';
+?>
 <footer>
+    <?php require $path_to_root . 'pages/components/navigation.php'; ?>
     <p>
         Want to host your own website, buy a domain, setup a virtual private
         server, or get a dedicated server? I use

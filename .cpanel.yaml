@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jlrenodi/public_html/
+    - /bin/cp -R pages $DEPLOYPATH
+    - /bin/cp googlec2eb16728290a5e7.html $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH

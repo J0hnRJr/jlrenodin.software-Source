@@ -6,7 +6,7 @@ const ExampleApp = () => {
   const contentText =
     "This page is generated using React and Typescript. See the source code at ";
   const sourceText =
-    "https://github.com/J0hnRJr/jlrenodin.software-Source/nextjs-app/src/app/pages/homepage.tsx";
+    "https://github.com/J0hnRJr/jlrenodin.software-Source/blob/main/nextjs-app/src/app/page.tsx";
   return (
     <div>
       <h1>{headerText}</h1>

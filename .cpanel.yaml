@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jlrenodi/public_html/
+    # - export SOURCEPATH=/home/jlrenodi/repositories/jlrenodin.software-Source/
+
+    # copy files to public_html to display on live site
+    - /bin/cp -R pages $DEPLOYPATH
+    - /bin/cp .cpanel.yaml $DEPLOYPATH
+    - /bin/cp googlec2eb16728290a5e7.html $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH

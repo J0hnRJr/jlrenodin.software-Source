@@ -966,7 +966,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"cd \"./nextjs-app\" && yarn build && cd \"./../\"",
+    "dev":"cd \"./nextjs-app\" && yarn dev && cd \"./../\""
   },
   "repository": {
     "type": "git",
@@ -978,5 +980,5 @@
   "bugs": {
     "url": "https://github.com/J0hnRJr/jlrenodin.software-Source/issues"
   },
-  "homepage": "https://github.com/J0hnRJr/jlrenodin.software-Source#readme"
+  "homepage": "https://jlrenodin.software/"
 }

@@ -9,7 +9,7 @@ deployment:
     - /bin/cp -R node_modules $DEPLOYPATH
     - /bin/cp -R pages $DEPLOYPATH
     - /bin/cp -R public-react $DEPLOYPATH
-    - /bin/cp .cpanel.yaml $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp googlec2eb16728290a5e7.html $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp package.json $DEPLOYPATH

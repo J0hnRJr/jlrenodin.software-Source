@@ -14,3 +14,4 @@ deployment:
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp package.json $DEPLOYPATH
     - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp readme.md $DEPLOYPATH

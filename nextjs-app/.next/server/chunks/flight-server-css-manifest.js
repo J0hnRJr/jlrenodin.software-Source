@@ -1,0 +1,1 @@
+self.__RSC_CSS_MANIFEST={"__entry_css_mods__":{"C:\\dev\\jlrenodin.software\\nextjs-app\\src\\app\\page":["C:\\dev\\jlrenodin.software\\nextjs-app\\src\\app\\globals.css"]},"C:\\dev\\jlrenodin.software\\nextjs-app\\src\\app\\layout.tsx":["C:\\dev\\jlrenodin.software\\nextjs-app\\src\\app\\globals.css"]}

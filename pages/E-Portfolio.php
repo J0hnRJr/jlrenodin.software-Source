@@ -7,9 +7,7 @@
 <body>
     <?php $path_to_root = './../'; ?>
     <?php require_once './components/header.php'; ?>
-    <ul>
-        <li><a href="https://jlrenodin.software/nextjs-app/.next/server/pages/homepage.html">React</a></li>
-    </ul>
+    <?php require_once './components/e-portfolio/content.php'; ?>
     <?php require_once './components/footer.php'; ?>
 </body>
 

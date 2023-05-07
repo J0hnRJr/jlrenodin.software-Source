@@ -8,5 +8,3 @@ deployment:
     - /bin/cp -R ${SOURCEPATH} ${DEPLOYPATH}_backup
     # copy files to public_html to display on live site
     - /bin/cp -R . $DEPLOYPATH
-
-#test changes

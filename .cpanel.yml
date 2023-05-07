@@ -1,10 +1,10 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/jlrenodi/public_html
+    - export DEPLOYPATH=/home/jlrenodi/
     - export SOURCEPATH=/home/jlrenodi/repositories/jlrenodin.software-Source/
 
-    - /bin/rm -Rf ${DEPLOYPATH}/_backup
-    - /bin/cp -R ${SOURCEPATH} ${DEPLOYPATH}/_backup
+    - /bin/rm -Rf ${DEPLOYPATH}/public_html/_backup
+    - /bin/cp -R ${SOURCEPATH} ${DEPLOYPATH}/public_html/_backup
     # copy files to public_html to display on live site
-    - /bin/cp -R . ${DEPLOYPATH}
+    - /bin/cp -R . ${DEPLOYPATH}/public_html

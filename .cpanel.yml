@@ -8,3 +8,5 @@ deployment:
     - /bin/cp -R ${SOURCEPATH} ${DEPLOYPATH}_backup
     # copy files to public_html to display on live site
     - /bin/rsync -aP --exclude '.git' --exclude '.well-known' ${SOURCEPATH}/ ${DEPLOYPATH} --delete-after
+
+#test changes

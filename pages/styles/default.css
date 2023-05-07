@@ -16,3 +16,7 @@ footer {
   width: 100%;
   text-align: center;
 }
+ul{
+  text-align: left;
+  padding-left: 30%;
+}

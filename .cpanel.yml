@@ -2,16 +2,9 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/jlrenodi/public_html/
-    # - export SOURCEPATH=/home/jlrenodi/repositories/jlrenodin.software-Source/
+    - export SOURCEPATH=/home/jlrenodi/repositories/jlrenodin.software-Source/
 
+    - /bin/rm -Rf ${DEPLOYPATH}_backup
+    - /bin/cp -R ${SOURCEPATH} ${DEPLOYPATH}_backup
     # copy files to public_html to display on live site
-    - /bin/cp -R nextjs-app $DEPLOYPATH
-    - /bin/cp -R node_modules $DEPLOYPATH
-    - /bin/cp -R pages $DEPLOYPATH
-    - /bin/cp -R public-react $DEPLOYPATH
-    - /bin/cp .cpanel.yml $DEPLOYPATH
-    - /bin/cp googlec2eb16728290a5e7.html $DEPLOYPATH
-    - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp package.json $DEPLOYPATH
-    - /bin/cp robots.txt $DEPLOYPATH
-    - /bin/cp readme.md $DEPLOYPATH
+    - /bin/rsync -aP --exclude '.git' --exclude '.well-known' ${REPOPATH}/ ${DEPLOYPATH} --delete-after

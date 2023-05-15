@@ -7,14 +7,20 @@ header {
 h1 {
   text-align: center;
 }
+h2{
+  padding-inline:10%;
+}
 p {
   text-align: center;
+  padding-inline: 10%;
 }
 footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
   text-align: center;
+  padding-top: 0.5%;
+  background-color: beige;
 }
 ul{
   text-align: left;

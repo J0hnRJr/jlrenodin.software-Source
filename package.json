@@ -968,7 +968,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build":"cd \"./nextjs-app\" && yarn build && cd \"./../\"",
-    "dev":"cd \"./nextjs-app\" && yarn dev && cd \"./../\""
+    "dev":"cd \"./nextjs-app\" && yarn dev && cd \"./../\"",
+    "start": "yarn build && cd \"./nextjs-app\" && yarn start && cd \"./../\""
   },
   "repository": {
     "type": "git",

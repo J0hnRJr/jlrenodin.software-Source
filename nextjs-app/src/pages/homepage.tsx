@@ -8,11 +8,15 @@ const ExampleApp = () => {
   const sourceText =
     "https://github.com/J0hnRJr/jlrenodin.software-Source/blob/main/nextjs-app/src/app/page.tsx";
   return (
-    <div>
+    <div style={{padding:'1%'}}>
       <h1>{headerText}</h1>
       <p>
         {contentText}
-        <Link href={sourceText}>{"this link"}</Link>
+        <Link 
+          style={{backgroundColor:'green',width:'fit-content', paddingInline:'5px'}} 
+          href={sourceText}
+        >{"this page"}
+        </Link>
       </p>
     </div>
   );

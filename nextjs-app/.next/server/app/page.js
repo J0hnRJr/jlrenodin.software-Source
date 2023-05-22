@@ -323,6 +323,9 @@ const ExampleApp = ()=>{
     const contentText = "This page is generated using React and Typescript. See the source code at ";
     const sourceText = "https://github.com/J0hnRJr/jlrenodin.software-Source/blob/main/nextjs-app/src/app/page.tsx";
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+        style: {
+            padding: "1%"
+        },
         children: [
             /*#__PURE__*/ jsx_runtime.jsx("h1", {
                 children: headerText
@@ -331,8 +334,13 @@ const ExampleApp = ()=>{
                 children: [
                     contentText,
                     /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
+                        style: {
+                            backgroundColor: "green",
+                            width: "fit-content",
+                            paddingInline: "5px"
+                        },
                         href: sourceText,
-                        children: "this link"
+                        children: "this page"
                     })
                 ]
             })

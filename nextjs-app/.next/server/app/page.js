@@ -28,6 +28,14 @@ module.exports = require("next/dist/compiled/react-server-dom-webpack/client");
 
 /***/ }),
 
+/***/ 6786:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/react/jsx-runtime");
+
+/***/ }),
+
 /***/ 3280:
 /***/ ((module) => {
 
@@ -171,7 +179,7 @@ __webpack_require__.r(__webpack_exports__);
         '',
         {
         children: ['', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6074)), "C:\\dev\\jlrenodin.software\\nextjs-app\\src\\app\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7306)), "C:\\dev\\jlrenodin.software\\nextjs-app\\src\\app\\page.tsx"],
           
         }]
       },
@@ -211,17 +219,17 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 3463:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2919, 23))
-
-/***/ }),
-
 /***/ 982:
 /***/ (() => {
 
 
+
+/***/ }),
+
+/***/ 298:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7089))
 
 /***/ }),
 
@@ -295,45 +303,69 @@ function RootLayout({ children  }) {
 
 /***/ }),
 
-/***/ 6074:
+/***/ 7306:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Home)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8499);
+/* harmony import */ var jlrenodin_React_pages_homepage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6833);
+/* harmony import */ var jlrenodin_React_pages_homepage__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jlrenodin_React_pages_homepage__WEBPACK_IMPORTED_MODULE_1__);
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ Home)
-});
 
-// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/jsx-runtime.js
-var jsx_runtime = __webpack_require__(8499);
-// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/react.shared-subset.js
-var react_shared_subset = __webpack_require__(5468);
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(2890);
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
-;// CONCATENATED MODULE: ./src/pages/homepage.tsx
+function Home() {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((jlrenodin_React_pages_homepage__WEBPACK_IMPORTED_MODULE_1___default()), {});
+}
+
+
+/***/ }),
+
+/***/ 6833:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+/* __next_internal_client_entry_do_not_use__  */ const { createProxy  } = __webpack_require__(4353);
+module.exports = createProxy("C:\\dev\\jlrenodin.software\\nextjs-app\\src\\pages\\homepage.tsx");
+
+
+/***/ }),
+
+/***/ 7089:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8038);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1621);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
 const ExampleApp = ()=>{
     const headerText = "React";
-    const contentText = "This page is generated using React and Typescript. See the source code at ";
+    const [contentText, setContentText] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)("This page is generated using React and Typescript. See the source code at ");
     const sourceText = "https://github.com/J0hnRJr/jlrenodin.software-Source/blob/main/nextjs-app/src/app/page.tsx";
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+    const [count, setCount] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0);
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
         style: {
             padding: "1%"
         },
         children: [
-            /*#__PURE__*/ jsx_runtime.jsx("h1", {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
                 children: headerText
             }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("p", {
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                 children: [
                     contentText,
-                    /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                         style: {
                             backgroundColor: "green",
                             width: "fit-content",
@@ -343,18 +375,33 @@ const ExampleApp = ()=>{
                         children: "this page"
                     })
                 ]
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                onClick: ()=>{
+                    setCount((prev)=>{
+                        return prev + 1;
+                    });
+                    setContentText("You have changed the page content " + count + " times!");
+                },
+                children: "Click here to change the page"
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                        href: "https://jlrenodin.software/",
+                        children: "Home"
+                    }),
+                    " | ",
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                        href: "https://www.jlrenodin.software/pages/E-Portfolio.php",
+                        children: "Go back"
+                    })
+                ]
             })
         ]
     });
 };
-/* harmony default export */ const homepage = (ExampleApp);
-
-;// CONCATENATED MODULE: ./src/app/page.tsx
-
-
-function Home() {
-    return /*#__PURE__*/ jsx_runtime.jsx(homepage, {});
-}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ExampleApp);
 
 
 /***/ }),
@@ -373,7 +420,7 @@ function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [417], () => (__webpack_exec__(4969)));
+var __webpack_exports__ = __webpack_require__.X(0, [110], () => (__webpack_exec__(4969)));
 module.exports = __webpack_exports__;
 
 })();

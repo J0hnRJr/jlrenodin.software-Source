@@ -1,4 +1,6 @@
 <?php ?>
+
+<p>These are some links to my work:</p>
 <ul>
     <li>Software Engineer I at <a href="https://westelcom.com/our-company/">Westelcom</a></li>
     <li><a href="https://github.com/J0hnRJr/">GitHub</a></li>

@@ -1,0 +1,690 @@
+{
+    "date": "2023-09-11T01:03:44+00:00",
+    "parentId": null,
+    "id": "c48249f4151ed244394c6392bdf5e46564fe6770a7b640.15350582",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:03:44+00:00",
+    "parentId": null,
+    "id": "c48249f4151ed244394c6392bdf5e46564fe6770a7cc04.04989720",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}
+{
+    "date": "2023-09-11T01:03:48+00:00",
+    "parentId": null,
+    "id": "1727376c58423fd16b1947aca2e79aeb64fe6774e80f48.16424202",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:03:48+00:00",
+    "parentId": null,
+    "id": "1727376c58423fd16b1947aca2e79aeb64fe6774e81952.51749834",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}
+{
+    "date": "2023-09-11T01:04:14+00:00",
+    "parentId": null,
+    "id": "373e47200fd15c450c3041f3bb03f63964fe678ea87c50.59976217",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:04:14+00:00",
+    "parentId": null,
+    "id": "373e47200fd15c450c3041f3bb03f63964fe678ea89056.16344859",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}
+{
+    "date": "2023-09-11T01:04:45+00:00",
+    "parentId": null,
+    "id": "c904a67d145874c018c46983ab64fbb964fe67ad6ab0c6.71570690",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:04:45+00:00",
+    "parentId": null,
+    "id": "c904a67d145874c018c46983ab64fbb964fe67ad6ac636.07139404",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}
+{
+    "date": "2023-09-11T01:05:48+00:00",
+    "parentId": null,
+    "id": "12f3cfaa02343a58fec1764760c7b2b664fe67ec9821d6.96844533",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:05:48+00:00",
+    "parentId": null,
+    "id": "12f3cfaa02343a58fec1764760c7b2b664fe67ec9832c4.64476932",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}
+{
+    "date": "2023-09-11T01:06:10+00:00",
+    "parentId": null,
+    "id": "e55611feb3d82d3d9e0a7045a5f150b364fe68021be018.29349193",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:06:10+00:00",
+    "parentId": null,
+    "id": "e55611feb3d82d3d9e0a7045a5f150b364fe68021bf3e1.20839511",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}
+{
+    "date": "2023-09-11T01:06:17+00:00",
+    "parentId": null,
+    "id": "fcfb11a68dbbeb0e597711675ed34cb364fe68096e2da3.08305622",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:06:17+00:00",
+    "parentId": null,
+    "id": "fcfb11a68dbbeb0e597711675ed34cb364fe68096e3753.85220982",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}
+{
+    "date": "2023-09-11T01:07:09+00:00",
+    "parentId": null,
+    "id": "28cc9152e655aa70bef54d05dfc3e2ee64fe683d56f822.28193209",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:07:09+00:00",
+    "parentId": null,
+    "id": "28cc9152e655aa70bef54d05dfc3e2ee64fe683d570833.34638326",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}
+{
+    "date": "2023-09-11T01:07:24+00:00",
+    "parentId": null,
+    "id": "161ace5ab10ca5031ea6b8e7f4ced77664fe684cd62822.83032338",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:07:24+00:00",
+    "parentId": null,
+    "id": "161ace5ab10ca5031ea6b8e7f4ced77664fe684cd63d18.47967589",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}
+{
+    "date": "2023-09-11T01:07:48+00:00",
+    "parentId": null,
+    "id": "7f88b8d5048b2cf55b4f15adc4e3293864fe686417d607.73242092",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:07:48+00:00",
+    "parentId": null,
+    "id": "7f88b8d5048b2cf55b4f15adc4e3293864fe686417ea44.29288333",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}
+{
+    "date": "2023-09-11T01:08:51+00:00",
+    "parentId": null,
+    "id": "bce019bb22b7c32c653ef73e2ec0046d64fe68a3d5dc07.04798306",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:08:51+00:00",
+    "parentId": null,
+    "id": "bce019bb22b7c32c653ef73e2ec0046d64fe68a3d5f179.91140753",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}
+{
+    "date": "2023-09-11T01:13:51+00:00",
+    "parentId": null,
+    "id": "f9091e5410ffa8ce82919cf7060ebe3764fe69cfe0c347.91302879",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:13:51+00:00",
+    "parentId": null,
+    "id": "f9091e5410ffa8ce82919cf7060ebe3764fe69cfe12804.34627916",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}
+{
+    "date": "2023-09-11T01:13:54+00:00",
+    "parentId": null,
+    "id": "8ccf3ce0626081650c5486b40a10ff7a64fe69d2c48280.69552982",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:13:54+00:00",
+    "parentId": null,
+    "id": "8ccf3ce0626081650c5486b40a10ff7a64fe69d2c5d663.33177576",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}
+{
+    "date": "2023-09-11T01:13:55+00:00",
+    "parentId": null,
+    "id": "f9c1952be5f2b9867f5a36240e56837064fe69d38a1b87.13169380",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:13:55+00:00",
+    "parentId": null,
+    "id": "f9c1952be5f2b9867f5a36240e56837064fe69d38a2506.51599115",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}
+{
+    "date": "2023-09-11T01:14:26+00:00",
+    "parentId": null,
+    "id": "11dc5755b6d219c09c8a12c92313cc1e64fe69f2c8f8b5.18301301",
+    "class": "ParseError",
+    "message": "syntax error, unexpected end of file",
+    "stacktrace": [
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/private\/Config.php",
+            "line": 64,
+            "function": "readData",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 135,
+            "function": "__construct",
+            "class": "OC\\Config"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 531,
+            "function": "initPaths",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/lib\/base.php",
+            "line": 1059,
+            "function": "init",
+            "class": "OC"
+        },
+        {
+            "file": "\/home\/jlrenodi\/public_html\/index.php",
+            "line": 53,
+            "function": "require_once"
+        }
+    ]
+}
+{
+    "date": "2023-09-11T01:14:26+00:00",
+    "parentId": null,
+    "id": "11dc5755b6d219c09c8a12c92313cc1e64fe69f2ca8357.52678752",
+    "class": "Error",
+    "message": "Call to a member function getLogger() on null",
+    "stacktrace": []
+}

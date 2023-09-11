@@ -1,0 +1,1 @@
+import{k as e,c as r}from"./eventBus-bf81ca73.mjs";const t=()=>e("$router"),n=()=>t().currentRoute,s=()=>r,o=()=>e("$clientService"),a=()=>e("$authService");export{s as a,n as b,t as c,a as d,o as u};

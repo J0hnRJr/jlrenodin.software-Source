@@ -1,0 +1,17 @@
+OC.L10N.register(
+    "drawio",
+    {
+    "Loading diagram..." : "Loading diagram...",
+    "Error: This is not a Drawio file!" : "Error: This is not a Drawio file!",
+    "Error: Failed to load the file!" : "Error: Failed to load the file!",
+    "File is currently being used by somebody else" : "File is currently being used by somebody else",
+    "Saving..." : "Saving...",
+    "Saved" : "Saved",
+    "Error: Could not save file!" : "Error: Could not save file!",
+    "Failed to create a new file." : "Failed to create a new file.",
+    "Open in Draw.io" : "Open in Draw.io",
+    "Diagram" : "Diagram",
+    "New Diagram.drawio" : "New Diagram.drawio",
+    "There was an error loading the diagram file. Check permissions and try again." : "There was an error loading the diagram file. Check permissions and try again."
+},
+"nplurals=2; plural=(n != 1);");

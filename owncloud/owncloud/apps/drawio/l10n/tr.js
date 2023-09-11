@@ -1,0 +1,17 @@
+OC.L10N.register(
+    "drawio",
+    {
+    "Loading diagram..." : "Diyagram yükleniyor...",
+    "Error: This is not a Drawio file!" : "Hata: Bu bir Drawio dosyası değil!",
+    "Error: Failed to load the file!" : "Hata: Dosya yükleme başarısız!",
+    "File is currently being used by somebody else" : "Dosya şu anda başka biri tarafından kullanılıyor",
+    "Saving..." : "Kaydediliyor...",
+    "Saved" : "Kaydedildi",
+    "Error: Could not save file!" : "Hata: Dosya kaydedilemedi!",
+    "Failed to create a new file." : "Yeni bir dosya oluşturma başarısız.",
+    "Open in Draw.io" : "Draw.io'da aç",
+    "Diagram" : "Diyagram",
+    "New Diagram.drawio" : "Yeni Diagram.drawio",
+    "There was an error loading the diagram file. Check permissions and try again." : "Diyagram dosyası yüklenirken bir hata oluştu. İzinleri kontrol edin ve tekrar deneyin."
+},
+"nplurals=2; plural=(n > 1);");

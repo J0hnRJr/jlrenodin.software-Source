@@ -1,0 +1,66 @@
+[10-Sep-2023 23:44:55 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught Error: Class "OC\Session\Memory" not found in /home/jlrenodi/public_html/lib/private/Server.php:1161
+Stack trace:
+#0 /home/jlrenodi/public_html/lib/private/Server.php(832): OC\Server->getSession()
+#1 /home/jlrenodi/public_html/lib/composer/pimple/pimple/src/Pimple/Container.php(122): OC\Server->OC\{closure}()
+#2 /home/jlrenodi/public_html/lib/private/AppFramework/Utility/SimpleContainer.php(107): Pimple\Container->offsetGet()
+#3 /home/jlrenodi/public_html/lib/private/ServerContainer.php(86): OC\AppFramework\Utility\SimpleContainer->query()
+#4 /home/jlrenodi/public_html/lib/private/Server.php(1643): OC\ServerContainer->query()
+#5 /home/jlrenodi/public_html/lib/private/Server.php(740): OC\Server->getCsrfTokenManager()
+#6 /home/jlrenodi/public_html/lib/composer/pimple/pimple/src/Pimple/Container.php(122): OC\Server->OC\{closure}()
+#7 /home/jlrenodi/public_html/lib/private/AppFramework/Utility/SimpleContainer.php(107): Pimple\Container->offsetGet()
+#8 /home/jlrenodi/public_html/lib/private/ServerContainer.php(86): OC\AppFramework\Utility\SimpleContainer->query()
+#9 /home/jlrenodi/public_html/lib/private/Server.php(1017): OC\ServerContainer->query()
+#10 /home/jlrenodi/public_html/lib/private/Log/Owncloud.php(88): OC\Server->getRequest()
+#11 /home/jlrenodi/public_html/lib/private/Log/Owncloud.php(67): OC\Log\Owncloud::writeExtra()
+#12 /home/jlrenodi/public_html/lib/private/Log.php(400): OC\Log\Owncloud::write()
+#13 /home/jlrenodi/public_html/lib/private/Log.php(210): OC\Log->log()
+#14 /home/jlrenodi/public_html/lib/private/Log/ErrorHandler.php(78): OC\Log->error()
+#15 /home/jlrenodi/public_html/lib/private/Session/Session.php(28): OC\Log\ErrorHandler::onError()
+#16 /home/jlrenodi/public_html/lib/composer/composer/ClassLoader.php(571): include('/home/jlrenodi/...')
+#17 /home/jlrenodi/public_html/lib/composer/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#18 /home/jlrenodi/public_html/lib/private/Session/Memory.php(39): Composer\Autoload\ClassLoader->loadClass()
+#19 /home/jlrenodi/public_html/lib/composer/composer/ClassLoader.php(571): include('/home/jlrenodi/...')
+#20 /home/jlrenodi/public_html/lib/composer/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#21 /home/jlrenodi/public_html/lib/private/Server.php(1161): Composer\Autoload\ClassLoader->loadClass()
+#22 /home/jlrenodi/public_html/lib/base.php(429): OC\Server->getSession()
+#23 /home/jlrenodi/public_html/lib/base.php(593): OC::initSession()
+#24 /home/jlrenodi/public_html/lib/base.php(1059): OC::init()
+#25 /home/jlrenodi/public_html/public.php(30): require_once('/home/jlrenodi/...')
+#26 {main} in /home/jlrenodi/public_html/lib/private/Session/Session.php on line 28
+[10-Sep-2023 23:56:03 UTC] PHP Deprecated:  Return type of OC\Memcache\Cache::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/jlrenodi/public_html/lib/private/Memcache/Cache.php on line 81
+[10-Sep-2023 23:56:03 UTC] PHP Deprecated:  Return type of OC\Memcache\Cache::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/jlrenodi/public_html/lib/private/Memcache/Cache.php on line 89
+[10-Sep-2023 23:56:03 UTC] PHP Deprecated:  Return type of OC\Memcache\Cache::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/jlrenodi/public_html/lib/private/Memcache/Cache.php on line 85
+[10-Sep-2023 23:56:03 UTC] PHP Deprecated:  Return type of OC\Memcache\Cache::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/jlrenodi/public_html/lib/private/Memcache/Cache.php on line 93
+[10-Sep-2023 23:56:03 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught Error: Class "OC\Session\Memory" not found in /home/jlrenodi/public_html/lib/private/Server.php:1161
+Stack trace:
+#0 /home/jlrenodi/public_html/lib/private/Server.php(832): OC\Server->getSession()
+#1 /home/jlrenodi/public_html/lib/composer/pimple/pimple/src/Pimple/Container.php(122): OC\Server->OC\{closure}()
+#2 /home/jlrenodi/public_html/lib/private/AppFramework/Utility/SimpleContainer.php(107): Pimple\Container->offsetGet()
+#3 /home/jlrenodi/public_html/lib/private/ServerContainer.php(86): OC\AppFramework\Utility\SimpleContainer->query()
+#4 /home/jlrenodi/public_html/lib/private/Server.php(1643): OC\ServerContainer->query()
+#5 /home/jlrenodi/public_html/lib/private/Server.php(740): OC\Server->getCsrfTokenManager()
+#6 /home/jlrenodi/public_html/lib/composer/pimple/pimple/src/Pimple/Container.php(122): OC\Server->OC\{closure}()
+#7 /home/jlrenodi/public_html/lib/private/AppFramework/Utility/SimpleContainer.php(107): Pimple\Container->offsetGet()
+#8 /home/jlrenodi/public_html/lib/private/ServerContainer.php(86): OC\AppFramework\Utility\SimpleContainer->query()
+#9 /home/jlrenodi/public_html/lib/private/Server.php(1017): OC\ServerContainer->query()
+#10 /home/jlrenodi/public_html/lib/private/Log/Owncloud.php(88): OC\Server->getRequest()
+#11 /home/jlrenodi/public_html/lib/private/Log/Owncloud.php(67): OC\Log\Owncloud::writeExtra()
+#12 /home/jlrenodi/public_html/lib/private/Log.php(400): OC\Log\Owncloud::write()
+#13 /home/jlrenodi/public_html/lib/private/Log.php(210): OC\Log->log()
+#14 /home/jlrenodi/public_html/lib/private/Log/ErrorHandler.php(78): OC\Log->error()
+#15 /home/jlrenodi/public_html/lib/private/Session/Session.php(28): OC\Log\ErrorHandler::onError()
+#16 /home/jlrenodi/public_html/lib/composer/composer/ClassLoader.php(571): include('/home/jlrenodi/...')
+#17 /home/jlrenodi/public_html/lib/composer/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#18 /home/jlrenodi/public_html/lib/private/Session/Memory.php(39): Composer\Autoload\ClassLoader->loadClass()
+#19 /home/jlrenodi/public_html/lib/composer/composer/ClassLoader.php(571): include('/home/jlrenodi/...')
+#20 /home/jlrenodi/public_html/lib/composer/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#21 /home/jlrenodi/public_html/lib/private/Server.php(1161): Composer\Autoload\ClassLoader->loadClass()
+#22 /home/jlrenodi/public_html/lib/base.php(429): OC\Server->getSession()
+#23 /home/jlrenodi/public_html/lib/base.php(593): OC::initSession()
+#24 /home/jlrenodi/public_html/lib/base.php(1059): OC::init()
+#25 /home/jlrenodi/public_html/status.php(34): require_once('/home/jlrenodi/...')
+#26 {main} in /home/jlrenodi/public_html/lib/private/Session/Session.php on line 28
+[11-Sep-2023 00:18:22 UTC] creating sqlite db
+[11-Sep-2023 01:16:23 UTC] creating sqlite db
+[11-Sep-2023 01:19:05 UTC] creating sqlite db
+[11-Sep-2023 02:06:30 UTC] creating sqlite db

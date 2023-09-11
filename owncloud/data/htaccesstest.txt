@@ -1,0 +1,1 @@
+HTACCESSFAIL: This is used for testing whether htaccess is properly enabled to disallow access from the outside. This file can be safely removed.

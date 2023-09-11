@@ -1,0 +1,25 @@
+OC.L10N.register(
+    "diagnostics",
+    {
+    "Users" : "Usuarios",
+    "Diagnostics" : "Diagnósticos",
+    "Nothing (collecting but not used)" : "Nada (recopilados pero no usados)",
+    "Summary (one report per request)" : "Resumen (un informe por solicitud)",
+    "All queries (summary, single queries with their parameters)" : "Todas las consultas (resumen, consultas individuales con sus parámetros)",
+    "All events (summary, single events)" : "Todos los eventos (resumen, eventos individuales)",
+    "Everything (summary, single queries with their parameters and events)" : "Todo (resumen, todas las consultas con sus parámetros y eventos)",
+    "Enabling this ownCloud diagnostic module will result in collecting data about all queries and events in the system per request." : "Activando este módulo de diagnóstico para ownCloud se recopilarán datos acerca de todas las consultas y sucesos del sistema por petición.",
+    "Collect data only after authentication of users:" : "Recopilar datos sólo después de la autentificación de usuarios:",
+    "Please specify full user name for best search performance" : "Por favor, especifique el nombre completo del usuario para mejorar el rendimiento de búsqueda",
+    "Allow collecting data for all requests in debug mode (all users, unauthenticated requests)" : "Permitir la recolección de datos de todas las peticiones en modo depuración (todos los usuarios, peticiones sin autenticación)",
+    "Lock the diagnostic.log file while writing. Useful for HA setups with NFS for the local storage" : "Bloquee el archivo diagnostic.log mientras escribe. Útil para configuraciones de alta disponibilidad con NFS para el almacenamiento local",
+    "What to log" : "Que registrar",
+    "Decide what details should be included in the log file" : "Escoger que detalles deberían estar incluidos en el archivo de registro",
+    "Diagnostic Log" : "Registro de diagnóstico",
+    "Download logfile (%s)" : "Descargar archivo de registro (%s)",
+    "Clean logfile" : "Limpiar archivo de registro",
+    "Log file is located by default in ./data/diagnostic.log" : "El archivo de registro se almacena por defecto en ./data/diagnostic.log",
+    "The logfile is empty!" : "¡El archivo de registro está vacío!",
+    "The logfile is bigger than 100 MB. Downloading it may take some time!" : "El archivo de registro es mayor de 100 MB. Descargarlo puede tardar."
+},
+"nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

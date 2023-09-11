@@ -1,0 +1,14 @@
+{ "translations": {
+    "Loading diagram..." : "Chargement du diagramme …",
+    "Error: This is not a Drawio file!" : "Erreur : il ne s'agit pas d'un fichier Drawio !",
+    "Error: Failed to load the file!" : "Erreur : impossible d'ouvrir le fichier.",
+    "Saving..." : "Enregistrement…",
+    "Saved" : "Enregistré",
+    "Error: Could not save file!" : "Erreur : Impossible d'enregistrer le fichier !",
+    "Failed to create a new file." : "Impossible de créer un nouveau fichier",
+    "Open in Draw.io" : "Ouvrir dans Draw.io",
+    "Diagram" : "Diagramme",
+    "New Diagram.drawio" : "Nouveau Diagram.drawio",
+    "There was an error loading the diagram file. Check permissions and try again." : "Une erreur s'est produite lors de l'ouverture du fichier diagramme. Veuillez vérifier les autorisations et re-essayer."
+},"pluralForm" :"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
+}

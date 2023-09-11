@@ -1,0 +1,17 @@
+OC.L10N.register(
+    "drawio",
+    {
+    "Loading diagram..." : "Γίνεται φόρτωση διαγράμματος...",
+    "Error: This is not a Drawio file!" : "Σφάλμα: Αυτό δεν είναι αρχείο Drawio!",
+    "Error: Failed to load the file!" : "Σφάλμα: Απέτυχε η φόρτωση του αρχείου!",
+    "File is currently being used by somebody else" : "Το αρχείο χρησιμοποιείται αυτήν τη στιγμή από κάποιον άλλο",
+    "Saving..." : "Γίνεται αποθήκευση...",
+    "Saved" : "Αποθηκευμένο",
+    "Error: Could not save file!" : "Σφάλμα: Δεν ήταν δυνατή η αποθήκευση του αρχείου!",
+    "Failed to create a new file." : "Αποτυχία δημιουργίας νέου αρχείου.",
+    "Open in Draw.io" : "Άνοιγμα στο Draw.io",
+    "Diagram" : "Διάγραμμα",
+    "New Diagram.drawio" : "Νέο διάγραμμα .drawio",
+    "There was an error loading the diagram file. Check permissions and try again." : "Παρουσιάστηκε σφάλμα κατά τη φόρτωση του αρχείου του διαγράμματος. Ελέγξτε τα δικαιώματα και δοκιμάστε ξανά."
+},
+"nplurals=2; plural=(n != 1);");
